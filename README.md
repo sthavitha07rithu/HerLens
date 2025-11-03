@@ -200,7 +200,7 @@ Frontend — HTML/CSS/JS
 
 ## Advanced Features
 
-## Universal KG Query Engine: ##
+## KG Query Engine: ##
 
 • Disease → Genes / Proteins / Biomarkers / Treatments / Drugs
 
@@ -284,3 +284,4 @@ If you run into issues:
 HerLens aims to bring rigor and clarity to women’s-health questions through **validated biological graph knowledge**, augmented by modern AI models.
 
 ---
+
