@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HerLens</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <style>
+    /* Typography */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap');
+
+    body {
+      display: flex;
+      margin: 0;
+      font-family: 'Inter', Arial, sans-serif;
+      background: linear-gradient(to bottom right, #fff5f8, #ffffff);
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 250px;
+      background: #ffe6f0;
+      border-right: 2px solid #ff99bb;
+      padding: 15px;
+      box-sizing: border-box;
+      height: 100vh;
+      overflow-y: auto;
+    }
+
+    .brand {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #cc0066;
+      margin-bottom: 20px;
+    }
+
+    .sidebar h3 {
+      margin-top: 0;
+      color: #cc0066;
+      font-size: 0.95rem; /* smaller font size */
+      display: flex;
+      align-items: center;
+    }
+
+    .sidebar h3 span {
+      margin-right: 6px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .sidebar li {
+      background: #ffd6e8;
+      margin: 6px 0;
+      padding: 6px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s ease, transform 0.1s ease;
+    }
+
+    .sidebar li:hover {
+      background: #ffb6c1;
+      transform: scale(1.02);
+    }
+
+    /* Main content */
+    main {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .greeting {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    .search-area {
+      margin-top: 15px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .search-area input {
+      flex: 1;
+      padding: 10px 12px;
+      border: 1px solid #ff99bb;
+      border-radius: 8px;
+      font-size: 1rem;
+      outline: none;
+      transition: box-shadow 0.2s ease;
+    }
+
+    .search-area input:focus {
+      box-shadow: 0 0 6px rgba(204, 0, 102, 0.4);
+    }
+
+    .search-area button {
+      background: #ff99bb;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 16px;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.1s ease, background 0.2s ease;
+    }
+
+    .search-area button:hover {
+      background: #e688a8;
+      transform: scale(1.03);
+    }
+
+    .examples-card {
+      background: #ffe6f0;
+      border: 1px solid #ff99bb;
+      border-radius: 12px;
+      padding: 15px;
+      margin-top: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .examples-card p {
+      margin: 8px 0;
+      padding: 6px;
+      background: #ffd6e8;
+      border-radius: 6px;
+    }
+
+    .divider {
+      border-top: 1px dashed #ff99bb;
+      margin: 20px 0;
+    }
+
+    .chat {
+      margin-top: 20px;
+      max-height: 400px;
+      overflow-y: auto;
+      border: 1px solid #ff99bb;
+      border-radius: 10px;
+      padding: 10px;
+      background: #fff0f5;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .bubble {
+      padding: 8px 12px;
+      margin: 6px 0;
+      border-radius: 12px;
+      max-width: 80%;
+      white-space: pre-wrap;
+    }
+
+    .bubble-user {
+      background: #ffb6c1;
+      align-self: flex-end;
+    }
+
+    .bubble-assistant {
+      background: #ffe6f0;
+      align-self: flex-start;
+    }
+  </style>
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="brand">🎀 HerLens</div>
+    <h3><span>🔍</span> You previously explored:</h3>
+    <ul id="history"></ul>
+  </div>
+
+  <!-- Main content -->
+  <main>
+    <section class="hero">
+      <p class="greeting">
+        🌸 Welcome to <strong>HerLens</strong> — your space to explore women’s health with clarity and care.  
+        Ask about <em>genes, biomarkers, or therapies</em> for different conditions!
+      </p>
+
+      <div class="search-area">
+        <input 
+          id="query" 
+          type="text" 
+          placeholder="Explore now: Ask about diseases, genes, proteins, or treatments.." 
+          aria-label="Search query"
+        />
+        <button id="send" aria-label="Submit question">Ask ✨</button>
+      </div>
+
+      <!-- Example Questions Card -->
+      <div class="examples-card">
+        <p>Try asking:</p>
+        <p>What are the genes associated with Breast Cancer?</p>
+        <p>What protein does BRCA1 encode?</p>
+        <p>What treatments are available for Polycystic Ovary Syndrome?</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Chat answers (one-timer) -->
+      <div id="chat" class="chat"></div>
+    </section>
+  </main>
+
+  <script>
+    const sendBtn = document.getElementById('send')
+    const input = document.getElementById('query')
+    const chat = document.getElementById('chat')
+    const historyList = document.getElementById('history')
+
+    const qaHistory = {}
+
+    function clearChat() {
+      chat.innerHTML = ''
+    }
+
+    function addBubble(text, from='user'){
+      const b = document.createElement('div')
+      b.className = 'bubble ' + (from === 'user' ? 'bubble-user' : 'bubble-assistant')
+      b.innerText = text
+      chat.appendChild(b)
+      chat.scrollTop = chat.scrollHeight
+    }
+
+    function addToHistory(question, answer){
+      if (qaHistory[question]) return
+      qaHistory[question] = answer
+      const li = document.createElement('li')
+      li.innerText = question
+      li.addEventListener('click', ()=> {
+        clearChat()
+        addBubble(question, 'user')
+        addBubble(answer, 'assistant')
+      })
+      historyList.appendChild(li)
+    }
+
+    async function ask(q){
+      clearChat()
+      addBubble(q, 'user')
+      addBubble('...', 'assistant')
+      const last = chat.lastChild
+      try{
+        const res = await fetch('/api/query', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({query: q})
+        })
+        const data = await res.json()
+        if(data.error){
+          last.innerText = 'Error: ' + data.error
+        } else {
+          last.innerText = data.answer
+          addToHistory(q, data.answer)
+        }
+      } catch(err){
+        last.innerText = 'Network error: ' + err.message
+      }
+    }
+
+    sendBtn.addEventListener('click', ()=>{
+      const q = input.value.trim()
+      if(!q) return
+      ask(q)
+      input.value = ''
+    })
+
+    input.addEventListener('keydown', (e)=>{
+      if(e.key === 'Enter') sendBtn.click()
+    })
+  </script>
+</body>
+</html>

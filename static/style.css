@@ -1,0 +1,23 @@
+:root{
+  --baby-pink: #ffd6e8;
+  --dark-pink: #c2185b;
+  --bubble-pink: #ffc0cb;
+  --bubble-pink-2: #ffb6c1;
+  --text: #3a3a3a;
+}
+html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--baby-pink);color:var(--text)}
+header{padding:12px 20px}
+.brand{font-weight:700;color:var(--dark-pink);font-size:20px}
+.appname{margin-left:6px}
+main{display:flex;align-items:center;justify-content:center;height:calc(100% - 60px)}
+.hero{background:rgba(255,255,255,0.6);padding:28px;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,0.06);width:680px;max-width:94%}
+.greeting{font-size:18px;margin:0 0 14px 0;text-align:center;color:var(--dark-pink)}
+.search-area{display:flex;gap:8px;justify-content:center;margin-bottom:12px}
+.search-area input{flex:1;padding:12px;border-radius:999px;border:1px solid rgba(0,0,0,0.08);min-width:0}
+.search-area button{background:var(--dark-pink);color:white;padding:10px 18px;border-radius:999px;border:none;cursor:pointer}
+.examples{margin:10px 0 18px 0}
+.example{background:var(--bubble-pink);padding:10px;border-radius:8px;margin-bottom:8px;color:var(--dark-pink)}
+.chat{display:flex;flex-direction:column;gap:10px;max-height:300px;overflow:auto}
+.bubble{max-width:80%;padding:12px;border-radius:14px}
+.bubble-user{align-self:flex-end;background:var(--bubble-pink-2);color:var(--text)}
+.bubble-assistant{align-self:flex-start;background:var(--bubble-pink);color:var(--text)}

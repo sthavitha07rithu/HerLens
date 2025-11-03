@@ -1,0 +1,4046 @@
+{
+  "nodes": [
+    {
+      "id": "Disease:Breast Cancer",
+      "label": "Breast Cancer",
+      "type": "Disease",
+      "color": "#d62728"
+    },
+    {
+      "id": "Disease:Ovarian Cancer",
+      "label": "Ovarian Cancer",
+      "type": "Disease",
+      "color": "#d62728"
+    },
+    {
+      "id": "Disease:Polycystic Ovary Syndrome",
+      "label": "Polycystic Ovary Syndrome",
+      "type": "Disease",
+      "color": "#d62728"
+    },
+    {
+      "id": "Disease:Osteoporosis",
+      "label": "Osteoporosis",
+      "type": "Disease",
+      "color": "#d62728"
+    },
+    {
+      "id": "Disease:Endometriosis",
+      "label": "Endometriosis",
+      "type": "Disease",
+      "color": "#d62728"
+    },
+    {
+      "id": "Disease:Preeclampsia",
+      "label": "Preeclampsia",
+      "type": "Disease",
+      "color": "#d62728"
+    },
+    {
+      "id": "Disease:Cervical Cancer",
+      "label": "Cervical Cancer",
+      "type": "Disease",
+      "color": "#d62728"
+    },
+    {
+      "id": "Disease:Gestational Diabetes",
+      "label": "Gestational Diabetes",
+      "type": "Disease",
+      "color": "#d62728"
+    },
+    {
+      "id": "Disease:Systemic Lupus Erythematosus",
+      "label": "Systemic Lupus Erythematosus",
+      "type": "Disease",
+      "color": "#d62728"
+    },
+    {
+      "id": "Disease:Rheumatoid Arthritis",
+      "label": "Rheumatoid Arthritis",
+      "type": "Disease",
+      "color": "#d62728"
+    },
+    {
+      "id": "Gene:ERBB2",
+      "label": "ERBB2",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:HER2",
+      "label": "HER2",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:HER2",
+      "label": "HER2",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Targeted therapy",
+      "label": "Targeted therapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Trastuzumab",
+      "label": "Trastuzumab",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:BRCA1",
+      "label": "BRCA1",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:BRCA1 Protein",
+      "label": "BRCA1 Protein",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:BRCA1 mutation",
+      "label": "BRCA1 mutation",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:PARP inhibitor therapy",
+      "label": "PARP inhibitor therapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Olaparib",
+      "label": "Olaparib",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Treatment:Platinum chemotherapy",
+      "label": "Platinum chemotherapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Cisplatin",
+      "label": "Cisplatin",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:BRCA2",
+      "label": "BRCA2",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:BRCA2 Protein",
+      "label": "BRCA2 Protein",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:BRCA2 mutation",
+      "label": "BRCA2 mutation",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Drug:Talazoparib",
+      "label": "Talazoparib",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:Carboplatin",
+      "label": "Carboplatin",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:ESR1",
+      "label": "ESR1",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Estrogen Receptor",
+      "label": "Estrogen Receptor",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:ER status",
+      "label": "ER status",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Hormone therapy",
+      "label": "Hormone therapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Tamoxifen",
+      "label": "Tamoxifen",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:Estradiol",
+      "label": "Estradiol",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:PGR",
+      "label": "PGR",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Progesterone Receptor",
+      "label": "Progesterone Receptor",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:PR status",
+      "label": "PR status",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Drug:Fulvestrant",
+      "label": "Fulvestrant",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:TP53",
+      "label": "TP53",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:p53",
+      "label": "p53",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:p53 mutation",
+      "label": "p53 mutation",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Chemotherapy",
+      "label": "Chemotherapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Doxorubicin",
+      "label": "Doxorubicin",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:PIK3CA",
+      "label": "PIK3CA",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:PI3K",
+      "label": "PI3K",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:PIK3CA mutation",
+      "label": "PIK3CA mutation",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:PI3K inhibitor",
+      "label": "PI3K inhibitor",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Alpelisib",
+      "label": "Alpelisib",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:PALB2",
+      "label": "PALB2",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:PALB2 Protein",
+      "label": "PALB2 Protein",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:PALB2 mutation",
+      "label": "PALB2 mutation",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:MUC16",
+      "label": "MUC16",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:CA125",
+      "label": "CA125",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:CA125 elevation",
+      "label": "CA125 elevation",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:CA125 >35 U/mL",
+      "label": "CA125 >35 U/mL",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Taxane chemotherapy",
+      "label": "Taxane chemotherapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Treatment:Combination chemotherapy",
+      "label": "Combination chemotherapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Treatment:Debulking surgery + chemotherapy",
+      "label": "Debulking surgery + chemotherapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Treatment:Maintenance therapy",
+      "label": "Maintenance therapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Paclitaxel",
+      "label": "Paclitaxel",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:Rucaparib",
+      "label": "Rucaparib",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:MLH1",
+      "label": "MLH1",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:MLH1 Protein",
+      "label": "MLH1 Protein",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Lynch syndrome",
+      "label": "Lynch syndrome",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Immunotherapy",
+      "label": "Immunotherapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Pembrolizumab",
+      "label": "Pembrolizumab",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:BRIP1",
+      "label": "BRIP1",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Gene:INS",
+      "label": "INS",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Insulin",
+      "label": "Insulin",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Elevated insulin",
+      "label": "Elevated insulin",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Insulin sensitizer",
+      "label": "Insulin sensitizer",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Metformin",
+      "label": "Metformin",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:INSR",
+      "label": "INSR",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Insulin Receptor",
+      "label": "Insulin Receptor",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Insulin resistance",
+      "label": "Insulin resistance",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Lifestyle modification + medication",
+      "label": "Lifestyle modification + medication",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Gene:CYP19A1",
+      "label": "CYP19A1",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Aromatase",
+      "label": "Aromatase",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Elevated testosterone",
+      "label": "Elevated testosterone",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Ovulation induction",
+      "label": "Ovulation induction",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Clomiphene",
+      "label": "Clomiphene",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:Clomiphene citrate",
+      "label": "Clomiphene citrate",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:ADIPOQ",
+      "label": "ADIPOQ",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Adiponectin",
+      "label": "Adiponectin",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Low adiponectin",
+      "label": "Low adiponectin",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:LH",
+      "label": "LH",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Luteinizing Hormone",
+      "label": "Luteinizing Hormone",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Elevated LH/FSH ratio",
+      "label": "Elevated LH/FSH ratio",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Fertility treatment",
+      "label": "Fertility treatment",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Letrozole",
+      "label": "Letrozole",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:FSH",
+      "label": "FSH",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Follicle Stimulating Hormone",
+      "label": "Follicle Stimulating Hormone",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Low FSH",
+      "label": "Low FSH",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:AMH",
+      "label": "AMH",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Anti-Mullerian Hormone",
+      "label": "Anti-Mullerian Hormone",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Elevated AMH",
+      "label": "Elevated AMH",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:SHBG",
+      "label": "SHBG",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Sex Hormone Binding Globulin",
+      "label": "Sex Hormone Binding Globulin",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Low SHBG",
+      "label": "Low SHBG",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Combined oral contraceptive",
+      "label": "Combined oral contraceptive",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Ethinyl estradiol + Drospirenone",
+      "label": "Ethinyl estradiol + Drospirenone",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:IGF1",
+      "label": "IGF1",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Insulin-like Growth Factor 1",
+      "label": "Insulin-like Growth Factor 1",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Elevated IGF1",
+      "label": "Elevated IGF1",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Thiazolidinedione",
+      "label": "Thiazolidinedione",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Rosiglitazone",
+      "label": "Rosiglitazone",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:TNFSF11",
+      "label": "TNFSF11",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:RANKL",
+      "label": "RANKL",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Low bone density",
+      "label": "Low bone density",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:RANKL inhibitor",
+      "label": "RANKL inhibitor",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Denosumab",
+      "label": "Denosumab",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:TNFRSF11A",
+      "label": "TNFRSF11A",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:RANK",
+      "label": "RANK",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Low BMD T-score",
+      "label": "Low BMD T-score",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Bisphosphonate",
+      "label": "Bisphosphonate",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Alendronate",
+      "label": "Alendronate",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:Risedronate",
+      "label": "Risedronate",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:Zoledronic acid",
+      "label": "Zoledronic acid",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:Ibandronate",
+      "label": "Ibandronate",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:TNFRSF11B",
+      "label": "TNFRSF11B",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Osteoprotegerin",
+      "label": "Osteoprotegerin",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Decreased OPG",
+      "label": "Decreased OPG",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:COL1A1",
+      "label": "COL1A1",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Collagen Type I",
+      "label": "Collagen Type I",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:CTX elevation",
+      "label": "CTX elevation",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:VDR",
+      "label": "VDR",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Vitamin D Receptor",
+      "label": "Vitamin D Receptor",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Low vitamin D",
+      "label": "Low vitamin D",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Calcium + Vitamin D supplementation",
+      "label": "Calcium + Vitamin D supplementation",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Cholecalciferol",
+      "label": "Cholecalciferol",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:PTH",
+      "label": "PTH",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Parathyroid Hormone",
+      "label": "Parathyroid Hormone",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Normal or elevated PTH",
+      "label": "Normal or elevated PTH",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Anabolic therapy",
+      "label": "Anabolic therapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Teriparatide",
+      "label": "Teriparatide",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:BGLAP",
+      "label": "BGLAP",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Osteocalcin",
+      "label": "Osteocalcin",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Low osteocalcin",
+      "label": "Low osteocalcin",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:ALP",
+      "label": "ALP",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Alkaline Phosphatase",
+      "label": "Alkaline Phosphatase",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Elevated bone-specific ALP",
+      "label": "Elevated bone-specific ALP",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:MMP9",
+      "label": "MMP9",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Matrix Metalloproteinase-9",
+      "label": "Matrix Metalloproteinase-9",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Elevated MMP9",
+      "label": "Elevated MMP9",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Surgical excision + hormones",
+      "label": "Surgical excision + hormones",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Treatment:GnRH agonist",
+      "label": "GnRH agonist",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Leuprolide",
+      "label": "Leuprolide",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:VEGFA",
+      "label": "VEGFA",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:VEGF",
+      "label": "VEGF",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Elevated VEGF",
+      "label": "Elevated VEGF",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Anti-angiogenic therapy",
+      "label": "Anti-angiogenic therapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Bevacizumab",
+      "label": "Bevacizumab",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:IL6",
+      "label": "IL6",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Interleukin-6",
+      "label": "Interleukin-6",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Elevated IL-6",
+      "label": "Elevated IL-6",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:NSAIDs + hormonal therapy",
+      "label": "NSAIDs + hormonal therapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Ibuprofen + Dienogest",
+      "label": "Ibuprofen + Dienogest",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:Dienogest",
+      "label": "Dienogest",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:Norethindrone",
+      "label": "Norethindrone",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:Celecoxib",
+      "label": "Celecoxib",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:TNF",
+      "label": "TNF",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:TNF-alpha",
+      "label": "TNF-alpha",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Elevated TNF-alpha",
+      "label": "Elevated TNF-alpha",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Anti-inflammatory therapy",
+      "label": "Anti-inflammatory therapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Naproxen",
+      "label": "Naproxen",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:PTGS2",
+      "label": "PTGS2",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:COX-2",
+      "label": "COX-2",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Elevated prostaglandins",
+      "label": "Elevated prostaglandins",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:COX inhibitor",
+      "label": "COX inhibitor",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Gene:WNT4",
+      "label": "WNT4",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Wnt4",
+      "label": "Wnt4",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Endometrial implants",
+      "label": "Endometrial implants",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Laparoscopic surgery",
+      "label": "Laparoscopic surgery",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Gene:HOXA10",
+      "label": "HOXA10",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Biomarker:Decreased HOXA10",
+      "label": "Decreased HOXA10",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Hormonal treatment",
+      "label": "Hormonal treatment",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Depot medroxyprogesterone",
+      "label": "Depot medroxyprogesterone",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:FLT1",
+      "label": "FLT1",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:sFlt-1",
+      "label": "sFlt-1",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Elevated sFlt-1",
+      "label": "Elevated sFlt-1",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Antihypertensive therapy",
+      "label": "Antihypertensive therapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Labetalol",
+      "label": "Labetalol",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:PGF",
+      "label": "PGF",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:PlGF",
+      "label": "PlGF",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Low PlGF",
+      "label": "Low PlGF",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Blood pressure control",
+      "label": "Blood pressure control",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Methyldopa",
+      "label": "Methyldopa",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:ENG",
+      "label": "ENG",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Endoglin",
+      "label": "Endoglin",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Elevated soluble endoglin",
+      "label": "Elevated soluble endoglin",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Magnesium sulfate",
+      "label": "Magnesium sulfate",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Magnesium sulfate",
+      "label": "Magnesium sulfate",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:ACE",
+      "label": "ACE",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Angiotensin Converting Enzyme",
+      "label": "Angiotensin Converting Enzyme",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:ACE polymorphism",
+      "label": "ACE polymorphism",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Antihypertensive",
+      "label": "Antihypertensive",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Nifedipine",
+      "label": "Nifedipine",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:AGT",
+      "label": "AGT",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Angiotensinogen",
+      "label": "Angiotensinogen",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:AGT variants",
+      "label": "AGT variants",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Aspirin prophylaxis",
+      "label": "Aspirin prophylaxis",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Aspirin",
+      "label": "Aspirin",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:NOS3",
+      "label": "NOS3",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Endothelial NOS",
+      "label": "Endothelial NOS",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Endothelial dysfunction",
+      "label": "Endothelial dysfunction",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Calcium supplementation",
+      "label": "Calcium supplementation",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Calcium carbonate",
+      "label": "Calcium carbonate",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:COMT",
+      "label": "COMT",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Biomarker:COMT variants",
+      "label": "COMT variants",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:F5",
+      "label": "F5",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Factor V",
+      "label": "Factor V",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Thrombophilia",
+      "label": "Thrombophilia",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Anticoagulation if needed",
+      "label": "Anticoagulation if needed",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Low molecular weight heparin",
+      "label": "Low molecular weight heparin",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:MTHFR",
+      "label": "MTHFR",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Biomarker:MTHFR mutation",
+      "label": "MTHFR mutation",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:HPV16",
+      "label": "HPV16",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Gene:HPV18",
+      "label": "HPV18",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:E6/E7",
+      "label": "E6/E7",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:HPV DNA positive",
+      "label": "HPV DNA positive",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:HPV 18 positive",
+      "label": "HPV 18 positive",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Chemotherapy + radiation",
+      "label": "Chemotherapy + radiation",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Treatment:Chemoradiation",
+      "label": "Chemoradiation",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Gene:CDKN2A",
+      "label": "CDKN2A",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:p16",
+      "label": "p16",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:p16 overexpression",
+      "label": "p16 overexpression",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:RB1",
+      "label": "RB1",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Retinoblastoma",
+      "label": "Retinoblastoma",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Loss of Rb function",
+      "label": "Loss of Rb function",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:PIK3CA",
+      "label": "PIK3CA",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Biomarker:PIK3CA mutation",
+      "label": "PIK3CA mutation",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Targeted therapy",
+      "label": "Targeted therapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Gene:TERT",
+      "label": "TERT",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Telomerase",
+      "label": "Telomerase",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Telomerase activation",
+      "label": "Telomerase activation",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:MYC",
+      "label": "MYC",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:c-Myc",
+      "label": "c-Myc",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:MYC amplification",
+      "label": "MYC amplification",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:EGFR",
+      "label": "EGFR",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:EGFR",
+      "label": "EGFR",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:EGFR overexpression",
+      "label": "EGFR overexpression",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:EGFR inhibitor",
+      "label": "EGFR inhibitor",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Cetuximab",
+      "label": "Cetuximab",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:Cisplatin",
+      "label": "Cisplatin",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:Carboplatin + Paclitaxel",
+      "label": "Cisplatin + Paclitaxel",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:Regular insulin",
+      "label": "Regular insulin",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:NPH insulin",
+      "label": "NPH insulin",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:Insulin lispro",
+      "label": "Insulin lispro",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:Insulin aspart",
+      "label": "Insulin aspart",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Drug:Insulin glargine",
+      "label": "Insulin glargine",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:GCK",
+      "label": "GCK",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Glucokinase",
+      "label": "Glucokinase",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Impaired glucose tolerance",
+      "label": "Impaired glucose tolerance",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Diet modification",
+      "label": "Diet modification",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Gene:KCNJ11",
+      "label": "KCNJ11",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Kir6.2",
+      "label": "Kir6.2",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Insulin secretion defect",
+      "label": "Insulin secretion defect",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:TCF7L2",
+      "label": "TCF7L2",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Biomarker:TCF7L2 variants",
+      "label": "TCF7L2 variants",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Dietary control + insulin",
+      "label": "Dietary control + insulin",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Gene:PPARG",
+      "label": "PPARG",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:PPAR-gamma",
+      "label": "PPAR-gamma",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Insulin resistance",
+      "label": "Insulin resistance",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:HNF1A",
+      "label": "HNF1A",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Biomarker:Monogenic diabetes",
+      "label": "Monogenic diabetes",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:IRS1",
+      "label": "IRS1",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Biomarker:IRS1 variants",
+      "label": "IRS1 variants",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Diet + exercise",
+      "label": "Diet + exercise",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Gene:ADIPOQ",
+      "label": "ADIPOQ",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Leptin",
+      "label": "Leptin",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Gene:LEP",
+      "label": "LEP",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Biomarker:Low adiponectin",
+      "label": "Low adiponectin",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:Altered leptin",
+      "label": "Altered leptin",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Dietary management",
+      "label": "Dietary management",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Gene:IGF2BP2",
+      "label": "IGF2BP2",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Biomarker:IGF2BP2 variants",
+      "label": "IGF2BP2 variants",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Blood glucose monitoring + insulin",
+      "label": "Blood glucose monitoring + insulin",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Gene:PTPN22",
+      "label": "PTPN22",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Biomarker:Anti-dsDNA antibodies",
+      "label": "Anti-dsDNA antibodies",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Immunosuppression",
+      "label": "Immunosuppression",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Hydroxychloroquine",
+      "label": "Hydroxychloroquine",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:STAT4",
+      "label": "STAT4",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Biomarker:Antinuclear antibodies",
+      "label": "Antinuclear antibodies",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Corticosteroid",
+      "label": "Corticosteroid",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Prednisone",
+      "label": "Prednisone",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:IRF5",
+      "label": "IRF5",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Biomarker:Complement deficiency",
+      "label": "Complement deficiency",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Immunosuppressant",
+      "label": "Immunosuppressant",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Mycophenolate",
+      "label": "Mycophenolate",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:TNFAIP3",
+      "label": "TNFAIP3",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:A20",
+      "label": "A20",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Low complement C3/C4",
+      "label": "Low complement C3/C4",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:Biologic therapy",
+      "label": "Biologic therapy",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Belimumab",
+      "label": "Belimumab",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:BLK",
+      "label": "BLK",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:BLK tyrosine kinase",
+      "label": "BLK tyrosine kinase",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Anti-Smith antibodies",
+      "label": "Anti-Smith antibodies",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:BANK1",
+      "label": "BANK1",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Biomarker:Elevated ESR/CRP",
+      "label": "Elevated ESR/CRP",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Drug:Cyclophosphamide",
+      "label": "Cyclophosphamide",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:TLR7",
+      "label": "TLR7",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Toll-like Receptor 7",
+      "label": "Toll-like Receptor 7",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Anti-Ro/Anti-La antibodies",
+      "label": "Anti-Ro/Anti-La antibodies",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Drug:Rituximab",
+      "label": "Rituximab",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:ITGAM",
+      "label": "ITGAM",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Integrin alpha M",
+      "label": "Integrin alpha M",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Lupus anticoagulant",
+      "label": "Lupus anticoagulant",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Drug:Warfarin",
+      "label": "Warfarin",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:FCGR2A",
+      "label": "FCGR2A",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Fc gamma receptor IIA",
+      "label": "Fc gamma receptor IIA",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Proteinuria",
+      "label": "Proteinuria",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Drug:Tacrolimus",
+      "label": "Tacrolimus",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:C1Q",
+      "label": "C1Q",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:Complement C1q",
+      "label": "Complement C1q",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:C1q deficiency",
+      "label": "C1q deficiency",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Drug:Methylprednisolone",
+      "label": "Methylprednisolone",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:HLA-DRB1",
+      "label": "HLA-DRB1",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:HLA-DR4",
+      "label": "HLA-DR4",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Anti-CCP antibodies",
+      "label": "Anti-CCP antibodies",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:DMARD",
+      "label": "DMARD",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Methotrexate",
+      "label": "Methotrexate",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:PADI4",
+      "label": "PADI4",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Protein:PADI4",
+      "label": "PADI4",
+      "type": "Protein",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "Biomarker:Citrullinated proteins",
+      "label": "Citrullinated proteins",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Drug:Tocilizumab",
+      "label": "Tocilizumab",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:IL6_RA",
+      "label": "IL6",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Drug:Sarilumab",
+      "label": "Sarilumab",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:TNF_RA",
+      "label": "TNF",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Drug:Infliximab",
+      "label": "Infliximab",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:CTLA4",
+      "label": "CTLA4",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Biomarker:Autoantibodies",
+      "label": "Autoantibodies",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:T-cell co-stimulation modulator",
+      "label": "T-cell co-stimulation modulator",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Abatacept",
+      "label": "Abatacept",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Gene:CD40",
+      "label": "CD40",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Biomarker:B-cell activation",
+      "label": "B-cell activation",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Gene:JAK2",
+      "label": "JAK2",
+      "type": "Gene",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "Biomarker:Synovial inflammation",
+      "label": "Synovial inflammation",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Treatment:JAK inhibitor",
+      "label": "JAK inhibitor",
+      "type": "Treatment",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "Drug:Baricitinib",
+      "label": "Baricitinib",
+      "type": "Drug",
+      "color": "#ffdf00"
+    },
+    {
+      "id": "Biomarker:Endometrioma",
+      "label": "Endometrioma",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:Endometriotic lesions",
+      "label": "Endometriotic lesions",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:Aromatase expression",
+      "label": "Aromatase expression",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:Elevated MMP9",
+      "label": "Elevated MMP9",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:Elevated VEGF",
+      "label": "Elevated VEGF",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:Elevated IL-6",
+      "label": "Elevated IL-6",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:Elevated TNF-alpha",
+      "label": "Elevated TNF-alpha",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:Elevated prostaglandins",
+      "label": "Elevated prostaglandins",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:Endometrial implants",
+      "label": "Endometrial implants",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:Decreased HOXA10",
+      "label": "Decreased HOXA10",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:Low BMD",
+      "label": "Low Bone Mineral Density (BMD)",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:CTX",
+      "label": "C-terminal telopeptide (CTX)",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:P1NP",
+      "label": "Procollagen type 1 N-terminal propeptide (P1NP)",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:Osteocalcin",
+      "label": "Osteocalcin",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:ALP",
+      "label": "Bone-specific Alkaline Phosphatase (ALP)",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:Proteinuria",
+      "label": "Proteinuria",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:Hypertension",
+      "label": "Hypertension",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:sFlt-1",
+      "label": "Soluble fms-like tyrosine kinase-1 (sFlt-1)",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:PlGF",
+      "label": "Placental Growth Factor (PlGF)",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:Endoglin",
+      "label": "Endoglin (sEng)",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:Uric acid",
+      "label": "Elevated Uric Acid",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    },
+    {
+      "id": "Biomarker:LDH",
+      "label": "Elevated LDH",
+      "type": "Biomarker",
+      "color": "#9467bd"
+    }
+  ],
+"edges": [
+  {
+    "source": "Gene:ERBB2",
+    "target": "Protein:HER2",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Gene:ERBB2",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Biomarker:HER2",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Treatment:Targeted therapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Drug:Trastuzumab",
+    "type": "drug_used"
+  },
+  {
+    "source": "Treatment:Targeted therapy",
+    "target": "Drug:Trastuzumab",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Gene:BRCA1",
+    "target": "Protein:BRCA1 Protein",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Gene:BRCA1",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Biomarker:BRCA1 mutation",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Treatment:PARP inhibitor therapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:PARP inhibitor therapy",
+    "target": "Drug:Olaparib",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Drug:Olaparib",
+    "type": "drug_used"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Treatment:Platinum chemotherapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Platinum chemotherapy",
+    "target": "Drug:Cisplatin",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Drug:Cisplatin",
+    "type": "drug_used"
+  },
+  {
+    "source": "Gene:BRCA2",
+    "target": "Protein:BRCA2 Protein",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Gene:BRCA2",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Biomarker:BRCA2 mutation",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Treatment:PARP inhibitor therapy",
+    "target": "Drug:Talazoparib",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Drug:Talazoparib",
+    "type": "drug_used"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Drug:Carboplatin",
+    "type": "drug_used"
+  },
+  {
+    "source": "Gene:ESR1",
+    "target": "Protein:Estrogen Receptor",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Gene:ESR1",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Biomarker:ER status",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Treatment:Hormone therapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Hormone therapy",
+    "target": "Drug:Tamoxifen",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Drug:Estradiol",
+    "type": "drug_used"
+  },
+  {
+    "source": "Gene:PGR",
+    "target": "Protein:Progesterone Receptor",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Gene:PGR",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Biomarker:PR status",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Treatment:Hormone therapy",
+    "target": "Drug:Fulvestrant",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Gene:TP53",
+    "target": "Protein:p53",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Gene:TP53",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Biomarker:p53 mutation",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Treatment:Chemotherapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Chemotherapy",
+    "target": "Drug:Doxorubicin",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Gene:PIK3CA",
+    "target": "Protein:PI3K",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Gene:PIK3CA",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Biomarker:PIK3CA mutation",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Treatment:PI3K inhibitor",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:PI3K inhibitor",
+    "target": "Drug:Alpelisib",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Gene:PALB2",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:PALB2",
+    "target": "Protein:PALB2 Protein",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Breast Cancer",
+    "target": "Biomarker:PALB2 mutation",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Gene:MUC16",
+    "target": "Protein:CA125",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Ovarian Cancer",
+    "target": "Gene:BRCA1",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Ovarian Cancer",
+    "target": "Gene:BRCA2",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Ovarian Cancer",
+    "target": "Gene:MUC16",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Ovarian Cancer",
+    "target": "Biomarker:CA125 elevation",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Ovarian Cancer",
+    "target": "Biomarker:CA125 >35 U/mL",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Ovarian Cancer",
+    "target": "Treatment:Platinum chemotherapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Platinum chemotherapy",
+    "target": "Drug:Carboplatin",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Ovarian Cancer",
+    "target": "Treatment:Taxane chemotherapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Taxane chemotherapy",
+    "target": "Drug:Paclitaxel",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Ovarian Cancer",
+    "target": "Treatment:Combination chemotherapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Combination chemotherapy",
+    "target": "Drug:Carboplatin + Paclitaxel",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Ovarian Cancer",
+    "target": "Treatment:Maintenance therapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Maintenance therapy",
+    "target": "Drug:Olaparib",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Treatment:PARP inhibitor",
+    "target": "Drug:Niraparib",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Ovarian Cancer",
+    "target": "Drug:Rucaparib",
+    "type": "drug_used"
+  },
+  {
+    "source": "Disease:Ovarian Cancer",
+    "target": "Gene:MLH1",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:MLH1",
+    "target": "Protein:MLH1 Protein",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Ovarian Cancer",
+    "target": "Biomarker:Lynch syndrome",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Ovarian Cancer",
+    "target": "Treatment:Immunotherapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Immunotherapy",
+    "target": "Drug:Pembrolizumab",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Ovarian Cancer",
+    "target": "Gene:BRIP1",
+    "type": "associated_with"
+  },
+  {
+    "source": "Treatment:Platinum-based chemotherapy",
+    "target": "Drug:Cisplatin",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Gene:INS",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:INS",
+    "target": "Protein:Insulin",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Biomarker:Elevated insulin",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Treatment:Insulin sensitizer",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Insulin sensitizer",
+    "target": "Drug:Metformin",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Gene:INSR",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:INSR",
+    "target": "Protein:Insulin Receptor",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Biomarker:Insulin resistance",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Treatment:Lifestyle modification + medication",
+    "type": "treated_with"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Gene:CYP19A1",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:CYP19A1",
+    "target": "Protein:Aromatase",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Biomarker:Elevated testosterone",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Treatment:Ovulation induction",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Ovulation induction",
+    "target": "Drug:Clomiphene",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Treatment:Ovulation induction",
+    "target": "Drug:Clomiphene citrate",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Gene:ADIPOQ",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:ADIPOQ",
+    "target": "Protein:Adiponectin",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Biomarker:Low adiponectin",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Gene:LH",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:LH",
+    "target": "Protein:Luteinizing Hormone",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Biomarker:Elevated LH/FSH ratio",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Treatment:Fertility treatment",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Fertility treatment",
+    "target": "Drug:Letrozole",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Gene:FSH",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:FSH",
+    "target": "Protein:Follicle Stimulating Hormone",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Biomarker:Low FSH",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Gene:AMH",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:AMH",
+    "target": "Protein:Anti-Mullerian Hormone",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Biomarker:Elevated AMH",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Gene:SHBG",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:SHBG",
+    "target": "Protein:Sex Hormone Binding Globulin",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Biomarker:Low SHBG",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Treatment:Combined oral contraceptive",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Combined oral contraceptive",
+    "target": "Drug:Ethinyl estradiol + Drospirenone",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Gene:IGF1",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:IGF1",
+    "target": "Protein:Insulin-like Growth Factor 1",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Biomarker:Elevated IGF1",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Polycystic Ovary Syndrome",
+    "target": "Treatment:Thiazolidinedione",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Thiazolidinedione",
+    "target": "Drug:Rosiglitazone",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Gene:TNFSF11",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:TNFSF11",
+    "target": "Protein:RANKL",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Biomarker:Low bone density",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Treatment:RANKL inhibitor",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:RANKL inhibitor",
+    "target": "Drug:Denosumab",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Gene:TNFRSF11A",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:TNFRSF11A",
+    "target": "Protein:RANK",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Biomarker:Low BMD T-score",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Treatment:Bisphosphonate",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Bisphosphonate",
+    "target": "Drug:Alendronate",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Treatment:Bisphosphonate",
+    "target": "Drug:Risedronate",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Treatment:Bisphosphonate",
+    "target": "Drug:Zoledronic acid",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Treatment:Bisphosphonate",
+    "target": "Drug:Ibandronate",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Gene:TNFRSF11B",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:TNFRSF11B",
+    "target": "Protein:Osteoprotegerin",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Biomarker:Decreased OPG",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Gene:COL1A1",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:COL1A1",
+    "target": "Protein:Collagen Type I",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Biomarker:CTX elevation",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Gene:VDR",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:VDR",
+    "target": "Protein:Vitamin D Receptor",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Biomarker:Low vitamin D",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Treatment:Calcium + Vitamin D supplementation",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Calcium + Vitamin D supplementation",
+    "target": "Drug:Cholecalciferol",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Gene:PTH",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:PTH",
+    "target": "Protein:Parathyroid Hormone",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Biomarker:Normal or elevated PTH",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Treatment:Anabolic therapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Anabolic therapy",
+    "target": "Drug:Teriparatide",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Gene:BGLAP",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:BGLAP",
+    "target": "Protein:Osteocalcin",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Biomarker:Low osteocalcin",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Gene:ALP",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:ALP",
+    "target": "Protein:Alkaline Phosphatase",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Osteoporosis",
+    "target": "Biomarker:Elevated bone-specific ALP",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Gene:ESR1",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Biomarker:Endometrioma",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Treatment:Hormonal suppression",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Hormonal suppression",
+    "target": "Drug:Dienogest",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Gene:PGR",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Biomarker:Endometriotic lesions",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Treatment:Progestin therapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Progestin therapy",
+    "target": "Drug:Norethindrone",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Gene:CYP19A1",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Biomarker:Aromatase expression",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Treatment:Aromatase inhibitor",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Aromatase inhibitor",
+    "target": "Drug:Letrozole",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Gene:MMP9",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Biomarker:Elevated MMP9",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Treatment:Surgical excision + hormones",
+    "type": "treated_with"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Treatment:GnRH agonist",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:GnRH agonist",
+    "target": "Drug:Leuprolide",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Gene:VEGFA",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Biomarker:Elevated VEGF",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Treatment:Anti-angiogenic therapy",
+    "target": "Drug:Bevacizumab",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Gene:IL6",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Biomarker:Elevated IL-6",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Treatment:NSAIDs + hormonal therapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:NSAIDs + hormonal therapy",
+    "target": "Drug:Ibuprofen + Dienogest",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Gene:TNF",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Biomarker:Elevated TNF-alpha",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Treatment:Anti-inflammatory therapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Anti-inflammatory therapy",
+    "target": "Drug:Naproxen",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Gene:PTGS2",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Biomarker:Elevated prostaglandins",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Treatment:COX inhibitor",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:COX inhibitor",
+    "target": "Drug:Celecoxib",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Gene:WNT4",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Biomarker:Endometrial implants",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Treatment:Laparoscopic surgery",
+    "type": "treated_with"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Gene:HOXA10",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Biomarker:Decreased HOXA10",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Endometriosis",
+    "target": "Treatment:Hormonal treatment",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Hormonal treatment",
+    "target": "Drug:Depot medroxyprogesterone",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Gene:FLT1",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:FLT1",
+    "target": "Protein:sFlt-1",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Biomarker:Elevated sFlt-1",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Treatment:Antihypertensive therapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Antihypertensive therapy",
+    "target": "Drug:Labetalol",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Gene:PGF",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:PGF",
+    "target": "Protein:PlGF",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Biomarker:Low PlGF",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Treatment:Blood pressure control",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Blood pressure control",
+    "target": "Drug:Methyldopa",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Gene:ENG",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:ENG",
+    "target": "Protein:Endoglin",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Biomarker:Elevated soluble endoglin",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Treatment:Magnesium sulfate",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Magnesium sulfate",
+    "target": "Drug:Magnesium sulfate",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Gene:VEGFA",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:VEGFA",
+    "target": "Protein:VEGF",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Biomarker:Angiogenic imbalance",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Treatment:Delivery + supportive care",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Delivery + supportive care",
+    "target": "Drug:Hydralazine",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Gene:ACE",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:ACE",
+    "target": "Protein:Angiotensin Converting Enzyme",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Biomarker:ACE polymorphism",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Treatment:Antihypertensive",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Antihypertensive",
+    "target": "Drug:Nifedipine",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Gene:AGT",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:AGT",
+    "target": "Protein:Angiotensinogen",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Biomarker:AGT variants",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Treatment:Aspirin prophylaxis",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Aspirin prophylaxis",
+    "target": "Drug:Aspirin",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Gene:NOS3",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:NOS3",
+    "target": "Protein:Endothelial NOS",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Biomarker:Endothelial dysfunction",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Treatment:Calcium supplementation",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Calcium supplementation",
+    "target": "Drug:Calcium carbonate",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Gene:COMT",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Biomarker:COMT variants",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Gene:F5",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:F5",
+    "target": "Protein:Factor V",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Biomarker:Thrombophilia",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Treatment:Anticoagulation if needed",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Anticoagulation if needed",
+    "target": "Drug:Low molecular weight heparin",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Gene:MTHFR",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Preeclampsia",
+    "target": "Biomarker:MTHFR mutation",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Gene:HPV16",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Gene:HPV18",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:HPV16",
+    "target": "Protein:E6/E7",
+    "type": "encodes"
+  },
+  {
+    "source": "Gene:HPV18",
+    "target": "Protein:E6/E7",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Biomarker:HPV DNA positive",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Biomarker:HPV 18 positive",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Treatment:Chemotherapy + radiation",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Chemotherapy + radiation",
+    "target": "Drug:Cisplatin",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Treatment:Chemoradiation",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Chemoradiation",
+    "target": "Drug:Carboplatin",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Gene:TP53",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:TP53",
+    "target": "Protein:p53",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Biomarker:p53 inactivation",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Treatment:Radical hysterectomy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Gene:CDKN2A",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:CDKN2A",
+    "target": "Protein:p16",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Biomarker:p16 overexpression",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Treatment:Immunotherapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Immunotherapy",
+    "target": "Drug:Pembrolizumab",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Gene:RB1",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:RB1",
+    "target": "Protein:Retinoblastoma",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Biomarker:Loss of Rb function",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Treatment:Surgical excision",
+    "type": "treated_with"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Gene:PIK3CA",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Biomarker:PIK3CA mutation",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Treatment:Targeted therapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Targeted therapy",
+    "target": "Drug:Bevacizumab",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Gene:TERT",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:TERT",
+    "target": "Protein:Telomerase",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Biomarker:Telomerase activation",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Treatment:Chemotherapy",
+    "target": "Drug:Paclitaxel",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Gene:MYC",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:MYC",
+    "target": "Protein:c-Myc",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Biomarker:MYC amplification",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Treatment:Combination chemotherapy",
+    "target": "Drug:Carboplatin + Paclitaxel",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Gene:EGFR",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:EGFR",
+    "target": "Protein:EGFR",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Biomarker:EGFR overexpression",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Cervical Cancer",
+    "target": "Treatment:EGFR inhibitor",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:EGFR inhibitor",
+    "target": "Drug:Cetuximab",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Gene:INS",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Biomarker:Elevated glucose",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Treatment:Insulin therapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Insulin therapy",
+    "target": "Drug:Insulin lispro",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Treatment:Insulin therapy",
+    "target": "Drug:NPH insulin",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Treatment:Dietary control + insulin",
+    "target": "Drug:Regular insulin",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Gene:GCK",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:GCK",
+    "target": "Protein:Glucokinase",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Biomarker:Impaired glucose tolerance",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Treatment:Diet modification",
+    "type": "treated_with"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Gene:KCNJ11",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:KCNJ11",
+    "target": "Protein:Kir6.2",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Biomarker:Insulin secretion defect",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Gene:TCF7L2",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Biomarker:TCF7L2 variants",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Treatment:Dietary control + insulin",
+    "type": "treated_with"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Gene:PPARG",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:PPARG",
+    "target": "Protein:PPAR-gamma",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Biomarker:Insulin resistance",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Treatment:Lifestyle + medication",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Lifestyle + medication",
+    "target": "Drug:Metformin",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Gene:HNF1A",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Biomarker:Monogenic diabetes",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Treatment:Insulin therapy",
+    "target": "Drug:Insulin aspart",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Gene:IRS1",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Biomarker:IRS1 variants",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Treatment:Diet + exercise",
+    "type": "treated_with"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Gene:LEP",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:LEP",
+    "target": "Protein:Leptin",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Biomarker:Altered leptin",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Treatment:Dietary management",
+    "type": "treated_with"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Gene:IGF2BP2",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Biomarker:IGF2BP2 variants",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Gestational Diabetes",
+    "target": "Treatment:Blood glucose monitoring + insulin",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Blood glucose monitoring + insulin",
+    "target": "Drug:Insulin glargine",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Gene:PTPN22",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Biomarker:Anti-dsDNA antibodies",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Treatment:Immunosuppression",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Immunosuppression",
+    "target": "Drug:Hydroxychloroquine",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Gene:STAT4",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Biomarker:Antinuclear antibodies",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Treatment:Corticosteroid",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Corticosteroid",
+    "target": "Drug:Prednisone",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Gene:IRF5",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Biomarker:Complement deficiency",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Treatment:Immunosuppressant",
+    "target": "Drug:Mycophenolate",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Gene:TNFAIP3",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:TNFAIP3",
+    "target": "Protein:A20",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Biomarker:Low complement C3/C4",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Treatment:Biologic therapy",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:Biologic therapy",
+    "target": "Drug:Belimumab",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Gene:BLK",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:BLK",
+    "target": "Protein:BLK tyrosine kinase",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Biomarker:Anti-Smith antibodies",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Gene:BANK1",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Biomarker:Elevated ESR/CRP",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Treatment:Immunosuppression",
+    "target": "Drug:Cyclophosphamide",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Gene:TLR7",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:TLR7",
+    "target": "Protein:Toll-like Receptor 7",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Biomarker:Anti-Ro/Anti-La antibodies",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Treatment:Biologic therapy",
+    "target": "Drug:Rituximab",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Gene:ITGAM",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:ITGAM",
+    "target": "Protein:Integrin alpha M",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Biomarker:Lupus anticoagulant",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Treatment:Anticoagulation",
+    "target": "Drug:Warfarin",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Gene:FCGR2A",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:FCGR2A",
+    "target": "Protein:Fc gamma receptor IIA",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Biomarker:Proteinuria",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Treatment:Calcineurin inhibitor",
+    "target": "Drug:Tacrolimus",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Gene:C1Q",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:C1Q",
+    "target": "Protein:Complement C1q",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Systemic Lupus Erythematosus",
+    "target": "Biomarker:C1q deficiency",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Treatment:High-dose steroids",
+    "target": "Drug:Methylprednisolone",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Gene:HLA-DRB1",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:HLA-DRB1",
+    "target": "Protein:HLA-DR4",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Biomarker:Anti-CCP antibodies",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Treatment:DMARD",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:DMARD",
+    "target": "Drug:Methotrexate",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Gene:PTPN22",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Biomarker:Rheumatoid factor",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Treatment:TNF inhibitor",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:TNF inhibitor",
+    "target": "Drug:Adalimumab",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Gene:STAT4",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Biomarker:Elevated CRP/ESR",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Treatment:JAK inhibitor",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:JAK inhibitor",
+    "target": "Drug:Tofacitinib",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Gene:TNFAIP3",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:TNFAIP3",
+    "target": "Protein:A20",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Biomarker:Anti-CCP positive",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Treatment:Biologic DMARD",
+    "target": "Drug:Etanercept",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Gene:PADI4",
+    "type": "associated_with"
+  },
+  {
+    "source": "Gene:PADI4",
+    "target": "Protein:PADI4",
+    "type": "encodes"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Biomarker:Citrullinated proteins",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Treatment:IL-6 inhibitor",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:IL-6 inhibitor",
+    "target": "Drug:Tocilizumab",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Gene:IL6_RA",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Biomarker:Elevated IL-6",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Treatment:Anti-IL-6 therapy",
+    "target": "Drug:Sarilumab",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Gene:TNF_RA",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Biomarker:TNF elevation",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Treatment:Anti-TNF biologic",
+    "target": "Drug:Infliximab",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Gene:CTLA4",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Biomarker:Autoantibodies",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Treatment:T-cell co-stimulation modulator",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:T-cell co-stimulation modulator",
+    "target": "Drug:Abatacept",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Gene:CD40",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Biomarker:B-cell activation",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Treatment:B-cell depleting therapy",
+    "target": "Drug:Rituximab",
+    "type": "uses_drug"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Gene:JAK2",
+    "type": "associated_with"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Biomarker:Synovial inflammation",
+    "type": "biomarker_of"
+  },
+  {
+    "source": "Disease:Rheumatoid Arthritis",
+    "target": "Treatment:JAK inhibitor",
+    "type": "treated_with"
+  },
+  {
+    "source": "Treatment:JAK inhibitor",
+    "target": "Drug:Baricitinib",
+    "type": "uses_drug"
+  }
+]
+}

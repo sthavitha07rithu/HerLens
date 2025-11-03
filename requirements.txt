@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-dotenv
+requests
+jinja2
+
+# OpenAI new SDK (>=1.0.0)
+openai>=1.0.0
+
+# Optional: if you want to use Hugging Face Inference API
+huggingface-hub
