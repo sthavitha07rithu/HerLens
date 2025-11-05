@@ -5,7 +5,7 @@ HerLens is a women’s-health–focused assistant powered by a verified biomedic
 
 By grounding responses in curated relationships, HerLens offers aggregated, traceable answers and reduces hallucination. When data is missing from the KG, the system temporarily falls back to OpenAI to maintain continuity.
 
-The long-term goal is to expand the KG with richer validated data so that HerLens can operate with higher accuracy and less dependence on general LLMs—ultimately becoming a more precise, trustworthy tool for women’s-health exploration.
+The long-term goal is to expand the KG with richer validated data so that HerLens can operate with higher accuracy and less dependence on general LLMs—ultimately becoming a more precise, trustworthy tool for women’s health exploration.
 
 
 ---
@@ -114,7 +114,6 @@ KG_MODE=1 ensures the KG is used as primary data.
 
 ```
 uvicorn herlens_app:app --reload
-
 ```
 
 Open in browser:
@@ -122,7 +121,7 @@ Open in browser:
 
 ---
 
-## Usage Examples
+## Example Questions to try
 
 • “What treatments are available for Polycystic Ovary Syndrome?”
 
@@ -134,7 +133,7 @@ HerLens returns **structured, consolidated lists** using KG first, and only fall
 
 ---
 
-## Knowledge Graph Data
+## Knowledge Graph Data (as of 05-Nov-2025)
 
 Entities:
 
@@ -285,5 +284,6 @@ If you run into issues:
 HerLens aims to bring rigor and clarity to women’s-health questions through **validated biological graph knowledge**, augmented by modern AI models.
 
 ---
+
 
 
