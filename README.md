@@ -113,7 +113,8 @@ KG_MODE=1 ensures the KG is used as primary data.
 ## Run the App
 
 ```
-uvicorn app:app --reload
+uvicorn herlens_app:app --reload
+
 ```
 
 Open in browser:
@@ -284,4 +285,5 @@ If you run into issues:
 HerLens aims to bring rigor and clarity to women’s-health questions through **validated biological graph knowledge**, augmented by modern AI models.
 
 ---
+
 
